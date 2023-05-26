@@ -52,7 +52,7 @@ const Home: NextPage = () => {
           <p className="first-letter text-lg text-white">{t('activity_hackathon_p_1')}</p>
           <p className="text-lg text-white">{t('activity_hackathon_p_2')}</p>
           <a
-            href="https://hackathon.ethshanghai.org/"
+            href="https://2022-hackathon.ethshanghai.org/"
             target="_blank"
             className="hover-shadow inline-flex w-36 justify-center bg-helper py-3 text-xl font-bold text-link">
             <span className="inline-flex">{t('button_more_details')}</span>
@@ -87,7 +87,7 @@ const Home: NextPage = () => {
                 <span className="inline-flex">{t('button_watch_youtube')}</span>
               </a>
               <a
-                href="https://hackathon.ethshanghai.org/"
+                href="https://2022-hackathon.ethshanghai.org/"
                 target="_blank"
                 className="hover-shadow flex justify-center bg-helper py-3 text-xl font-bold text-link xl:w-1/2">
                 <span className="inline-flex">{t('button_hack_with_me')}</span>

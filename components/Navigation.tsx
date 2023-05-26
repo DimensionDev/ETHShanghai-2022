@@ -48,7 +48,7 @@ export default function Navigation() {
   const navigation: NavItem[] = useMemo(
     () => [
       { name: t('menu_about_this_summit'), href: '#about-summit', current: true },
-      { name: t('menu_hackathon'), href: 'https://hackathon.ethshanghai.org/', target: '_blank', current: false },
+      { name: t('menu_hackathon'), href: 'https://2022-hackathon.ethshanghai.org/', target: '_blank', current: false },
       { name: t('menu_summit_agenda'), href: '#summit-agenda', current: false },
       { name: t('menu_speakers'), href: '#speakers', current: false },
       { name: t('menu_partnership'), href: '#partnerships', current: false },
